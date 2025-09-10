@@ -1,15 +1,15 @@
 body {
-    color: rgb(204, 161, 224);
-    background: rgb(220, 149, 226);
+    color: rgb(223, 27, 157, 1);
+    background: rgb(231, 195, 195);
     margin: 0px;
     font-family: "Rubik Wet Paint", system-ui;
 }
 
 header {
-    border-bottom: solid 2px rgb(154, 49, 214);
+    border-bottom: solid 2px rgb(216, 127, 105);
     padding: 20px;
     font-size: 32px;
-    color: rgb(149, 49, 189);
+    color: rgb(231, 195, 195);
 }
 
 .background {
@@ -17,16 +17,16 @@ header {
 }
 
 .chamada {
-    background: black;
+    background: rgb(228, 184, 215);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    border-bottom: solid 2px rgb(165, 59, 192);
+    border-bottom: solid 2px rgb(190, 88, 148);
 }
 
 .video {
-    border: solid 2px rgb(217, 132, 235);
+    border: solid 2px rgb(220, 156, 226);
 }
 
 .chamada-texto {
@@ -42,13 +42,13 @@ header {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    color: rgb(157, 23, 190);
+    color: rgb(190, 21, 168);
     /* Define a cor do texto */
 }
 
 .cursor {
     display: inline-block;
-    color: rgb(161, 44, 207);
+    color: rgb(231, 148, 213);
     /* Define a mesma cor do texto */
     animation: blink-caret 0.7s step-end infinite;
 }
@@ -86,7 +86,7 @@ p {
 .categoria-videos {
     display: flex;
     overflow-x: auto;
-    scrollbar-color: rgba(139, 40, 197, 0.753) rgb(235, 137, 230);
+    scrollbar-color: rgb(174, 14, 14) black;
     scrollbar-width: thin;
     gap: 10px;
 }
@@ -104,11 +104,11 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid rgb(177, 42, 204);
+    border: 3px solid rgb(237, 45, 6);
 }
 
 .categoria h2 {
-    color: rgb(166, 26, 209);
+    color: rgb(255, 0, 0);
 }
 
 .copyright {
@@ -118,3 +118,4 @@ p {
     text-align: center;
     justify-content: center;
     align-items: center;
+}

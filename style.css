@@ -1,15 +1,15 @@
 body {
-    color: #f2a3e0;
-    background: #df91ce;
+    color: rgb(204, 161, 224);
+    background: rgb(220, 149, 226);
     margin: 0px;
     font-family: "Rubik Wet Paint", system-ui;
 }
 
 header {
-    border-bottom: solid 2px #cc80bb;
+    border-bottom: solid 2px rgb(154, 49, 214);
     padding: 20px;
     font-size: 32px;
-    color: #b86ea9;
+    color: rgb(149, 49, 189);
 }
 
 .background {
@@ -17,16 +17,16 @@ header {
 }
 
 .chamada {
-    background: #ac709e;
+    background: black;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    border-bottom: solid 2px #7f4a73;
+    border-bottom: solid 2px rgb(165, 59, 192);
 }
 
 .video {
-    border: solid 2px #d995c9;
+    border: solid 2px rgb(217, 132, 235);
 }
 
 .chamada-texto {
@@ -42,13 +42,13 @@ header {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    color: #26001d;
+    color: rgb(157, 23, 190);
     /* Define a cor do texto */
 }
 
 .cursor {
     display: inline-block;
-    color: #532548;
+    color: rgb(161, 44, 207);
     /* Define a mesma cor do texto */
     animation: blink-caret 0.7s step-end infinite;
 }
@@ -86,7 +86,7 @@ p {
 .categoria-videos {
     display: flex;
     overflow-x: auto;
-    scrollbar-color: #614b5b #7e6677;
+    scrollbar-color: rgba(139, 40, 197, 0.753) rgb(235, 137, 230);
     scrollbar-width: thin;
     gap: 10px;
 }
@@ -104,11 +104,11 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid #a47598;
+    border: 3px solid rgb(177, 42, 204);
 }
 
 .categoria h2 {
-    color: #b98aae;
+    color: rgb(166, 26, 209);
 }
 
 .copyright {
@@ -118,4 +118,3 @@ p {
     text-align: center;
     justify-content: center;
     align-items: center;
-}
